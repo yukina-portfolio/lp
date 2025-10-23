@@ -244,6 +244,17 @@ to {
     animation :infinity-scroll-right 30s infinite linear;
 }
 
+.whale {
+    background-image: url(../images/whale.jpg);
+    background-color: rgba(255,255,255,0.8);
+    background-blend-mode:lighten;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100%;
+}
+
 /* features */
 
 .flex.features {
@@ -266,16 +277,6 @@ to {
 
 /* reviews */
 
-.whale {
-    background-image: url(../images/whale.jpg);
-    background-color: rgba(255,255,255,0.8);
-    background-blend-mode:lighten;
-    background-attachment: fixed;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-}
-
 .reviews.whale {
     padding-bottom: 0;
 }
@@ -295,6 +296,7 @@ to {
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+    height: 100%;
 }
 
 .access {
@@ -340,10 +342,14 @@ footer {
         flex: initial;
     }
 
+    .whale, #access {
+        background-attachment: scroll;
+    }
+
     /* Apply to all pages ‐ header */
 
     header {
-        height: 10%;
+        height: 5%;
         width: 100%;
         padding: 0;
     }
@@ -351,11 +357,15 @@ footer {
     nav ul {
         flex-direction: initial;
         justify-content: center;
-        margin-top: 5%;
+        margin-top: 3%;
         gap: 5%;
     }
 
     /* Apply to all pages ‐ hero */
+
+    .hero {
+        height: 50vh;
+    }
 
     .hero p {
         white-space: nowrap;
@@ -380,8 +390,4 @@ footer {
     .coffee {
         order: 2;
     }
-
-    /* menu */
-
-
 }
