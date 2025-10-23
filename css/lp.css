@@ -202,6 +202,11 @@ a:active {
     text-decoration: none;
 }
 
+.scroll {
+    width: 100%;
+    overflow-x: hidden;
+}
+
 .scroll-infinity__list {
     display: flex;
     list-style: none;
@@ -283,6 +288,8 @@ to {
 
 .phone {
     display: block;
+    width: 50%;
+    height: auto;
     margin: 0 auto;
 }
 
@@ -307,8 +314,6 @@ to {
 .access h3 {
     margin: 0;
 }
-
-/* contact */
 
 /* Apply to all pages ‐ footer */
 
@@ -364,7 +369,7 @@ footer {
     /* Apply to all pages ‐ hero */
 
     .hero {
-        height: 50vh;
+        height: 80vh;
     }
 
     .hero p {
@@ -389,5 +394,11 @@ footer {
 
     .coffee {
         order: 2;
+    }
+
+    /* reviews */
+
+    .phone {
+        width: 80%;
     }
 }
