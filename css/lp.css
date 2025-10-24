@@ -356,7 +356,7 @@ footer {
         flex: initial;
     }
 
-    .whale, #access {
+    #reviews, #access, #contact {
         background-attachment: scroll;
     }
 
