@@ -155,11 +155,20 @@ nav a:active {
 
 .hero p {
    position: absolute;
-   top: 70%;
+   bottom: 25%;
    left: 50%;
    transform: translate(-50%, -50%);
    margin: 0;
    color: white;
+}
+
+.whale_hero {
+    position: absolute;
+    top: 25%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 5%;
+    height: auto;
 }
 
 /* Apply to all pages ‐ main */
@@ -249,8 +258,8 @@ to {
     animation :infinity-scroll-right 30s infinite linear;
 }
 
-.whale {
-    background-image: url(../images/whale.jpg);
+#reviews, #contact {
+    background-image: url(../images/whale_back.jpg);
     background-color: rgba(255,255,255,0.8);
     background-blend-mode:lighten;
     background-attachment: fixed;
@@ -296,7 +305,7 @@ to {
 /* access */
 
 #access {
-    background-image: url(../images/hero1.jpg);
+    background-image: url(../images/shop_out.jpg);
     background-color: rgba(255,255,255,0.5);
     background-blend-mode:lighten;
     background-attachment: fixed;
@@ -373,7 +382,13 @@ footer {
     }
 
     .hero p {
+        bottom: 30%;
         white-space: nowrap;
+    }
+
+    .whale2 {
+        top: 30%;
+        width: 15%;
     }
 
     /* Apply to all pages ‐ main */
