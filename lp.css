@@ -367,7 +367,7 @@ footer {
         flex: initial;
     }
 
-    #reviews, #access, #contact {
+    #reviews, #access, #contact, #menu {
         background-attachment: scroll;
     }
 
