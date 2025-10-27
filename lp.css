@@ -388,10 +388,6 @@ footer {
 
     /* Apply to all pages ‐ hero */
 
-    .hero {
-        height: 90vh;
-    }
-
     .hero p {
         bottom: 30%;
         white-space: nowrap;
